@@ -1,0 +1,84 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+      width: 40%;
+      margin: auto;
+      margin-top: 3rem;
+      border-radius: 10px;
+      padding: 3rem;
+      background-color: orange;
+      color: white;
+      text-align: center;
+    }
+    #events {
+      width: 40%;
+      box-shadow: 2px 2px 11px rgba(73, 69, 69, 0.719);
+      margin: auto;
+      margin-top: 3rem;
+      border-radius: 10px;
+      padding: 5rem;
+      text-align: center;
+    }
+    input{
+      width: 55%;
+      padding: 5px;
+    }
+    input:focus{
+      background: lightgray;
+    }
+  
+  .demo {
+    width: 100%;
+  }
+  p{
+    background: orange;
+    color: #000;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+  }
+  button {
+    width: 40%;
+    border: .1rem solid orange;
+    font-weight: bold;
+    padding: .4rem;
+    background-color: white;
+    color:orange;
+  }
+  button:hover {
+    background: orange;
+    color: white;
+  }
+  .active {
+     background: darkblue;
+     color: white;
+     margin-top: 20px;
+     padding: 10px;
+     border-radius: 7px;
+  }
+  
+  .wara {
+     background: maroon;
+     color: white;
+     margin-top: 20px;
+     padding: 10px;
+     border-radius: 7px;
+  }
+  .visible {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+  @media (max-width: 700px){
+    #events{
+      width: 80%;
+    }
+  }
+  
